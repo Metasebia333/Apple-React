@@ -32,7 +32,7 @@ function App() {
 		<div>
 		    <Nav />
 		    <Routes>
-				<Route path="/" element={<><Paragraph /><First/><Second/><Third/><Fourth/><Fifth /><Sixth /><Youtube /></>} />
+				<Route path="/" element={<><Paragraph /><First/><Second/><Third/><Fourth/><Fifth /><Sixth />< Youtube /></>} />
 				<Route path="/mac/" element={<Mac />} />
 				<Route path="/iphone/" element={<Iphone />} />
 				<Route path="/ipad/" element={<Ipad />} />
