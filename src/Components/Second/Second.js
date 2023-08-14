@@ -1,4 +1,4 @@
-import Rating from "./Rating/Rating";
+// import Rating from "./Rating/Rating";
 
 function Second() {
 	return (
@@ -28,7 +28,7 @@ function Second() {
 				</div>
 			</section>
 
-			<Rating />
+			{/* <Rating /> */}
 		</div>
 	);
 }

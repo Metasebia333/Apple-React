@@ -4,7 +4,7 @@ function Youtube() {
 	const [youTubeVideos, setYouTubeVideos] = useState([]);
 	useEffect(() => {
 		fetch(
-			`https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&channelId=${process.env.REACT_APP_CHANNEL_ID}&part=snippet,id&order=date&maxResults=9`
+			`https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&channelId=${process.env.REACT_APP_CHANNEL_ID}&part=snippet,id&order=date&maxResults=6`
 		)
 			.then((response) => response.json())
 			.then((data) => {
